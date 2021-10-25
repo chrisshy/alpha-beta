@@ -7,7 +7,7 @@ These python files were written based on Bigquant Platform APIs.
 2. These models are all done in terms of technical analysis. 
 3. In terms of fundamental logic: https://github.com/chrisshy/photovoltaic_industry
 
-the performance of these strategies can be found here:
+The performance of these strategies can be found here:
 1. multi-factor_model_300274: https://bigquant.com/live/shared/strategy?id=51158
 2. industry_based_simple_control_group: https://bigquant.com/live/shared/strategy?id=55358
 3. DTW_matching_and_fuzzy_mathematics: https://bigquant.com/live/shared/strategy?id=51807
@@ -15,10 +15,10 @@ the performance of these strategies can be found here:
 
 These models are constructed based on the following logics:
 ## General Objective: 
-Predict stock performance(s) and choose the optimal one to trade next day.
+Predict stock performance(s) and choose the optimal one to trade the next day.
 1. Use simple traditional models(without non-linear models) to trade in a specific group of stocks.
-2. Test the performance of multi-factor model in a single stock 
-
+2. Test the performance of the multi-factor model in different situations(a single stock or a bunch of stocks).
+3. Directly compare the shape of the candlestick chart with traditional historical patterns 
 
 ## Specific objectives: 
 1. 
