@@ -22,7 +22,9 @@ Predict stock performance(s) and choose the optimal one to trade the next day.
 
 ## Specific objectives: 
 1. 
-2. 
+2. s
+3. Wrote a DTW matching model with fuzzy mathematics for Wuliangye (a popular Chinese stock). This model first simplified the daily candlestick charts by fuzzy mathematics and then used DTW matching to compare a certain period with previous trading history records. 
+
 
 ## Training Period & Model Choice
 1. Why RF in multi-factor: low variance of prediction results.
