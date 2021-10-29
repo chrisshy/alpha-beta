@@ -21,13 +21,15 @@ Predict stock performance(s) and choose the optimal one to trade the next day.
 3. Directly compare the shape of the candlestick chart with traditional historical patterns 
 
 ## Specific objectives: 
-1. 
-2. s
-3. Wrote a DTW matching model with fuzzy mathematics for Wuliangye (a popular Chinese stock). This model first simplified the daily candlestick charts by fuzzy mathematics and then used DTW matching to compare a certain period with previous trading history records. 
+1. Choose stocks pool based on personal industry research and trade based on simple trading strategy(based on price and volume information only).
+2. Use non-linear models to build multi-factor models that only take technical features into consideration and make trading predictions.
+3. Write a DTW matching model with fuzzy mathematics for Wuliangye (a popular Chinese stock). This model first simplified the daily candlestick charts by fuzzy mathematics and then used DTW matching to compare a certain period with previous trading history records. 
+4. Based on stocks pool in objectives 1, make alpha strategies with beta hedging. (Uncompleted)
 
 
 ## Training Period & Model Choice
-1. Why RF in multi-factor: low variance of prediction results.
-2. Different from grouped stocks, why begin from 2015 when training 300274: 
-3. Why fuzzy mathematics: 
-4. Why DTW matching:
+1. Why Random Forest in multi-factor: low variance of prediction results.
+2. Why begin from 2015 when training 300274: photovoltaic industry first arouse everyone's attention in 2015 in China, thus the data after 2015 are more useful.(Purpose for removing noise)
+3. Why fuzzy mathematics: Simplify the candlestick charts in a certain period.
+4. Why DTW matching: It's commonly used in data mining to measure the distance between two time-series. Instead of Euclidean matching, it proves useful when dealing with temporally shifted time series dynamically.
+
